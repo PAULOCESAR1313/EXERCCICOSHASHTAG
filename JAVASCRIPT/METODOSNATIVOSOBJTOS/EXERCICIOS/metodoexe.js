@@ -1,0 +1,2 @@
+/*EXERCICIO - 01
+Crie um objeto chamado VENDA, com as propriedades - PRODUTO, QUANTIDADE, PRECOUNITARIO e DESCONTO. Adicione um Método chaado CALCULARTOTAL que calcule o valor total da venda, cansiderando o desconto. Adicione também um método chamado DETALHARVENDA que retorne uma Strig detalhando a venda.*/ 
