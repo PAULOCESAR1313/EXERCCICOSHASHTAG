@@ -61,3 +61,34 @@ venda.verificarEstoque = function (emEstoque)
 //console.log(venda.verificarEstoque(0));
 
 console.log(venda);
+
+/*EXERCICIO - 05
+Retorne um array com todas as suas propriedades e valores do objeto vendas.
+Exibir todas as propriedades e valores do objeto venda de uma forma legivel*/
+
+/*EXERCICIO - 06
+Obtenha um array com todos os nomes e propriedades do objeto venda.
+Exibir as propriedades do objeto.*/
+
+/*EXERCICIO - 07
+Obtenho um array com todos os valores das propriedades do objeto vendas
+Exibir os valores das propriedades*/
+
+/*EXERCICIO - 08
+Verifique se o objeto vendas possui a propriedade desconto. Retorne a
+verificação diretamente em uma mensagem fixa.*/
+
+/*EXERCICIO - 09
+Crie um novo objeto novaVenda que contenha as mesmas propriedades e valores do objeto venda,
+mas com um produto e qualidade difrentes. Exibir o novo objeto novaVenda*/
+
+/*EXERCICIO - 10
+Adicione uma propriedade nova data no objeto venda, definindu-a como não enumerável. Exiba das as propriedades do 
+objeto venda e, em seguida exiba o valor da nova propriedade dara separadamente.*/
+
+/*EXERCICO - 11
+Crie um novo objeto chamado DescontoEspecial que herde as propriedades do objeto venda, mas com o desconto fixo de
+20%. Exiba as propriedades do novo objeto e verifique se o desconto foi aplicado corretamente.*/
+
+/*EXERCICIO - 12
+Remova a propriedade desconto do objeto venda. Verifique se a propriedade foi removida com sucesso e exiba as propriedades restantes do objeto.*/
