@@ -67,3 +67,7 @@ function calcularIdade(dataNascimentoStr) {
 // Exemplo de uso
 let dataNascimento = "13/02/1977";
 calcularIdade(dataNascimento);
+
+/*
+Essa função leva em conta a diferença de anos e ajusta a idade caso o aniversário da pessoa ainda não tenha ocorrido no ano atual. Dessa forma, a idade calculada será precisa. Me avise se precisar de ajustes!
+*/
