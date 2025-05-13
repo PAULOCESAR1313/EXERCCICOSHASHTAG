@@ -53,4 +53,4 @@ function calcularDiferencaDias(data1, data2) {
 }
 
 // Testando a função
-calcularDiferencaDias("2025-05-01", "2025-05-12");
+calcularDiferencaDias("2024-01-01", "2024-10-08");
