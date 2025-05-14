@@ -1,3 +1,5 @@
+//FOR
+
 //Lista de funcionarios de um Zoologico.
 let funcionarios = 
 [
