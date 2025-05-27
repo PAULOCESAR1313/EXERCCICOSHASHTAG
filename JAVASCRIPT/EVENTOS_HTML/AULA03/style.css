@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    margin-bottom: 10px;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(20, 19, 19);
+}
+
+h1
+{
+    margin: 0;
+    font-size: 28px;
+}
+
+main
+{
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2
+{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.texto-lista
+{
+    margin-bottom: 15px;
+    font-style: italic;
+    text-align: justify;
+}
+
+#destacado
+{
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: rgb(184, 232, 27);
+}
+
+ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+div
+{
+    display: flex;
+}
+
+input
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
