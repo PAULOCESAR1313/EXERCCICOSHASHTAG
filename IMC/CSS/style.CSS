@@ -21,7 +21,7 @@ body
     max-width: 450px;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 5px 10px 20px #901de288;
+    box-shadow: 0 0 30px #901de2fa;
     background-color: antiquewhite;
 }
 
@@ -46,6 +46,14 @@ input[type="text"], input[type="number"]
     padding: 10px;
     border: 1px solid #cccc;
     border-radius: 10px;
+}
+
+#nome-error
+{
+    display: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #970404;
 }
 
 button[type="submit"]
@@ -78,5 +86,6 @@ button[type="submit"]:hover
 {
     margin: 0;
     padding: 5px;
-    color: #cccc;
+    font-weight: bolder;
+    color: #41036a;
 }
