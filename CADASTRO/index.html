@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Projeto HashForms</title>
+  </head>
+  <body>
+    <main class="conteiner">
+        <div class="images">
+          <img
+            src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121793047x871980606331503000%2Foie_transparent.png?w=32&amp;h=45&amp;auto=compress&amp;dpr=1&amp;fit=max"
+          />
+          <img
+            src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121799406x669791932198187400%2Foie_transparent%2520%25281%2529-fotor-202408089554.png?w=96&amp;h=28&amp;auto=compress&amp;dpr=1&amp;fit=max"
+          />
+        </div>
+
+        <div class="boxes">
+            <div class="box1">
+                <section class="meus-dados">
+                    <h1>
+                        <i class='bxr  bx-user-circle'  ></i> MEUS DADOS
+                    </h1>
+                    <p>
+                        Confirme seus dados. Eles apareceram na sua nota fiscal.
+                    </p>
+
+                    <form action="#" id="formulario">
+                        <fieldset>
+                            <legend>
+                                DADOS PESSOAIS
+                            </legend>
+                            <div class="form-group">
+                                <label for="nome">NOME:</label>
+                                <input type="text" name="nome" id="nome" placeholder="Digite o nome completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpf">CPF:</label>
+                                <input type="number" name="cpf" id="cpf" placeholder="Digite o seu CPF" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">TELEFONE:</label>
+                                <input type="number" name="telefone" id="telefone" placeholder="Digite o nome completo" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                ENDEREÇO
+                            </legend>
+                            <div class="form-group">
+                                <label for="cep">CEP:</label>
+                                <input type="number" name="cep" id="cep" placeholder="Digite seu CPF" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="rua">RUA:</label>
+                                <input type="text" name="rua" id="rua" placeholder="Digite o nome da sua Rua" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="numero">NÚMERO:</label>
+                                <input type="number" name="numero" id="numero" placeholder="Digite o número da residência" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="complemento">COMPLEMENTO:</label>
+                                <input type="text" name="complemento" id="complemento" placeholder="Digite o complemento" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bairro">BAIRRO:</label>
+                                <input type="text" name="bairro" id="bairro" placeholder="Digite o nome do seu bairro" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cidade">CIDADE:</label>
+                                <input type="text" name="cidade" id="cidade" placeholder="Digite o nome da sua cidade" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="estado">ESTADO:</label>
+                                <input type="text" name="estado" id="estado" placeholder="Digite o nome do seu estado" required>
+                            </div>
+                        </fieldset>
+                        <button type="submit">AVANÇAR</button>
+                    </form>
+                </section>
+            </div>
+            <div class="BOX2">
+                <section class="resumo">
+                    <h2>
+                        <i class='bxr  bx-receipt'  ></i> RESUMO
+                    </h2>
+                    <div class="group-itens">
+                        <p>
+                            Black Friday - Lote 01: R$ 1.200,00
+                        </p>
+                        <p>
+                            Total: 12x R$ 100,00 ou R$ 1.200,00 à vista
+                        </p>
+                    </div>
+
+                    <div class="apply-discount">
+                        <div class="apply-discount-header">
+                            <span>Aplicar cumpom de desconto</span>
+                            <i id="toogle-icon" class='bxr  bx-chevron-down' ></i> 
+                        </div>
+                        <div id="apply-discount-body" class="apply-discount-body">
+                            <input type="text" name="discount-code" id="discount-code" placeholder="Digite o código de desconto">
+
+                            <button type="button">APLICAR</button>
+                            <span style="display: block; margin-top: 10px; color: green">
+                                Mensagem de desconto
+                            </span>
+                            <p id="total-prince">Preço total: R4 1.200,00</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
